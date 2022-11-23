@@ -1,0 +1,130 @@
+.experiencia {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+}
+
+.experiencia img {
+  width: 453px;
+  height: 441px;
+}
+
+.experiencia .subtitulo {
+  padding-top: 100px;
+  color: #dddcdd;
+}
+
+.experiencia-texto {
+  width: 453px;
+  height: 110px;
+  border: 1px solid #eeedef;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  margin-bottom: 60px;
+  position: relative;
+}
+
+.experiencia-texto::before{
+  content: '';
+  position: absolute;
+  background: url('../Img/Detalhepequeno.svg');
+  width: 6px;
+  height: 30px;
+  top: 35px;
+  left: -5px;
+}
+
+.experiencia-texto p{
+  margin-top: 10px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #494849;
+}
+
+.experiencia-texto strong{
+  color: #141414;
+}
+
+@media (max-width: 1000px){
+  .subtitulo{
+    font-size: 6rem;
+  }
+
+  .experiencia img {
+    width: 350px;
+    height: 350px;
+  }
+
+  .experiencia-texto {
+    width: 350px;
+    height: 100px;
+  }  
+
+  .experiencia-texto p{
+    font-size: 16px;
+    line-height: 25px;
+  }
+}
+
+@media (max-width: 800px){
+  .subtitulo{
+    font-size: 5rem;
+  }
+
+  .experiencia img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .experiencia-texto {
+    width: 300px;
+    height: 90px;
+  }  
+
+  .experiencia-texto p{
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+
+@media (max-width: 680px){
+  .subtitulo{
+    font-size: 5rem;
+  }
+
+  .experiencia img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .experiencia-texto {
+    width: 250px;
+    height: 90px;
+  }  
+
+  .experiencia-texto p{
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+
+@media (max-width: 610px){
+  .experiencia{
+    gap: 70px;
+    padding: 30px 0px;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .experiencia .subtitulo{
+    text-transform: capitalize;
+    font-size: 2rem;
+    max-width: 13ch;
+    color: #141414;
+  }
+}
