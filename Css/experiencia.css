@@ -14,8 +14,8 @@
 
 .experiencia .subtitulo {
   padding-top: 100px;
-  max-width: 4ch;
   color: #dddcdd;
+  max-width: 4ch;
 }
 
 .experiencia-texto {
@@ -125,7 +125,7 @@
   .experiencia .subtitulo{
     text-transform: capitalize;
     font-size: 2rem;
-    max-width: 13ch;
+    max-width: initial;
     color: #141414;
   }
 }
